@@ -8,6 +8,8 @@ import java.util.*;
 //having code that allows me to emulate cards means I could do any card game and re-use the cards
 //learnt about name binding, and I plan to have arrays of cards (a hand object is basically just an array so why not)
 
+//considering eventually writing a 'proper' game version using libgdx..?
+
 public class Main {
 
 
