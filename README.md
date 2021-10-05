@@ -1,7 +1,7 @@
 # blackjack!
 
 
---> planning to make it a 'proper' game w/ libgdx... 
+--> planning to make it a 'proper' game w/ libgdx, might eventually make it multiplayer
 
 here's my planning for that so far, I guess:
 
