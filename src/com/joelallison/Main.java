@@ -14,14 +14,16 @@ public class Main {
 
 
     public static void main(String[] args) {
-        ArrayList<String> playerHand = new ArrayList<String>();
-        ArrayList<String> computerHand = new ArrayList<String>();
+        Deck deck = new Deck(false);
+        ArrayList<Card> playerHand = new ArrayList<Card>();
+        ArrayList<Card> computerHand = new ArrayList<Card>();
         int round = 0;
 
         System.out.println("Blackjack");
 
+        deck.print();
         //game loop
-        boolean playing = true;
+        boolean playing = false;
         do{
             round++;
 
